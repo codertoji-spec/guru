@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+  <rect width="100%" height="100%" fill="#080808" />
+  
+      <defs>
+        <radialGradient id="waveGlow" cx="50%" cy="50%" r="70%">
+          <stop offset="0%" stop-color="#1a1816" />
+          <stop offset="100%" stop-color="#080808" />
+        </radialGradient>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#waveGlow)" />
+      <g stroke="#C5A880" stroke-opacity="0.3" stroke-width="1.2" fill="none">
+        <path d="M0 300 Q 400 270, 800 300 T 1600 300" stroke-opacity="0.08" />
+<path d="M0 322 Q 400 280, 800 322 T 1600 322" stroke-opacity="0.101875" />
+<path d="M0 344 Q 400 290, 800 344 T 1600 344" stroke-opacity="0.12375" />
+<path d="M0 366 Q 400 300, 800 366 T 1600 366" stroke-opacity="0.145625" />
+<path d="M0 388 Q 400 310, 800 388 T 1600 388" stroke-opacity="0.16749999999999998" />
+<path d="M0 410 Q 400 380, 800 410 T 1600 410" stroke-opacity="0.18937500000000002" />
+<path d="M0 432 Q 400 390, 800 432 T 1600 432" stroke-opacity="0.21125" />
+<path d="M0 454 Q 400 400, 800 454 T 1600 454" stroke-opacity="0.23312499999999997" />
+<path d="M0 476 Q 400 410, 800 476 T 1600 476" stroke-opacity="0.255" />
+<path d="M0 498 Q 400 420, 800 498 T 1600 498" stroke-opacity="0.276875" />
+<path d="M0 520 Q 400 490, 800 520 T 1600 520" stroke-opacity="0.29875" />
+<path d="M0 542 Q 400 500, 800 542 T 1600 542" stroke-opacity="0.320625" />
+<path d="M0 564 Q 400 510, 800 564 T 1600 564" stroke-opacity="0.34249999999999997" />
+<path d="M0 586 Q 400 520, 800 586 T 1600 586" stroke-opacity="0.364375" />
+<path d="M0 608 Q 400 530, 800 608 T 1600 608" stroke-opacity="0.38625" />
+<path d="M0 630 Q 400 600, 800 630 T 1600 630" stroke-opacity="0.408125" />
+      </g>
+    
+
+  <!-- Grain overlay simulation & luxury typography -->
+  <g font-family="'Helvetica Neue', 'Arial', sans-serif">
+    <!-- Top label -->
+    <text x="60" y="80" fill="#999999" font-size="13" letter-spacing="4" font-weight="500">NOVA ARCHIVAL SOUND</text>
+    <text x="1540" y="80" text-anchor="end" fill="#999999" font-size="13" letter-spacing="4">MMXXVI</text>
+
+    <!-- Bottom metadata -->
+    <text x="60" y="900" fill="#C5A880" font-size="12" letter-spacing="5" font-weight="600">PHOTO V / MAMIYA RZ67</text>
+    <text x="60" y="940" fill="#F5F2EC" font-size="28" letter-spacing="6" font-weight="700">PATCH MATRIX</text>
+    <text x="1540" y="940" text-anchor="end" fill="#777777" font-size="12" letter-spacing="3">CAT. NV-409-LP</text>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+  <rect width="100%" height="100%" fill="#080808" />
+  
+      <defs>
+        <radialGradient id="monolithGlow" cx="50%" cy="45%" r="60%">
+          <stop offset="0%" stop-color="#C5A880" stop-opacity="0.22" />
+          <stop offset="60%" stop-color="#141414" stop-opacity="0.6" />
+          <stop offset="100%" stop-color="#080808" stop-opacity="1" />
+        </radialGradient>
+        <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#3a3835" />
+          <stop offset="50%" stop-color="#181818" />
+          <stop offset="100%" stop-color="#0c0c0c" />
+        </linearGradient>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#monolithGlow)" />
+      <!-- Subtle architectural grid -->
+      <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+        <line x1="20%" y1="0" x2="20%" y2="100%" />
+        <line x1="80%" y1="0" x2="80%" y2="100%" />
+        <line x1="0" y1="30%" x2="100%" y2="30%" />
+        <line x1="0" y1="70%" x2="100%" y2="70%" />
+      </g>
+      <!-- Central sculptural monolithic block -->
+      <g transform="translate(800, 480)">
+        <rect x="-160" y="-240" width="320" height="480" rx="4" fill="url(#metalGrad)" stroke="#C5A880" stroke-opacity="0.3" stroke-width="1.5" />
+        <!-- Inner shadow / slit -->
+        <rect x="-6" y="-210" width="12" height="420" rx="6" fill="#080808" stroke="#C5A880" stroke-opacity="0.5" stroke-width="0.75" />
+        <circle cx="0" cy="0" r="110" stroke="#C5A880" stroke-opacity="0.25" stroke-width="1" fill="none" stroke-dasharray="4 8" />
+        <circle cx="0" cy="0" r="180" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1" fill="none" />
+      </g>
+    
+
+  <!-- Grain overlay simulation & luxury typography -->
+  <g font-family="'Helvetica Neue', 'Arial', sans-serif">
+    <!-- Top label -->
+    <text x="60" y="80" fill="#999999" font-size="13" letter-spacing="4" font-weight="500">NOVA ARCHIVAL SOUND</text>
+    <text x="1540" y="80" text-anchor="end" fill="#999999" font-size="13" letter-spacing="4">MMXXVI</text>
+
+    <!-- Bottom metadata -->
+    <text x="60" y="900" fill="#C5A880" font-size="12" letter-spacing="5" font-weight="600">DEBUT ALBUM / GENESIS</text>
+    <text x="60" y="940" fill="#F5F2EC" font-size="28" letter-spacing="6" font-weight="700">FIRST LIGHT</text>
+    <text x="1540" y="940" text-anchor="end" fill="#777777" font-size="12" letter-spacing="3">CAT. NV-409-LP</text>
+  </g>
+</svg>

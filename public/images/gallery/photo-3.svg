@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200">
+  <rect width="100%" height="100%" fill="#080808" />
+  
+      <rect width="100%" height="100%" fill="#0a0a0a" />
+      <circle cx="600" cy="600" r="260" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1" fill="none" />
+      <circle cx="600" cy="600" r="190" stroke="#C5A880" stroke-opacity="0.25" stroke-width="1.5" fill="none" stroke-dasharray="1 8" />
+      <circle cx="600" cy="600" r="90" stroke="#C5A880" stroke-opacity="0.4" stroke-width="1.5" fill="none" />
+      <line x1="180" y1="600" x2="1020" y2="600" stroke="#C5A880" stroke-opacity="0.3" stroke-width="1" />
+    
+
+  <!-- Grain overlay simulation & luxury typography -->
+  <g font-family="'Helvetica Neue', 'Arial', sans-serif">
+    <!-- Top label -->
+    <text x="60" y="80" fill="#999999" font-size="13" letter-spacing="4" font-weight="500">NOVA ARCHIVAL SOUND</text>
+    <text x="1140" y="80" text-anchor="end" fill="#999999" font-size="13" letter-spacing="4">MMXXVI</text>
+
+    <!-- Bottom metadata -->
+    <text x="60" y="1100" fill="#C5A880" font-size="12" letter-spacing="5" font-weight="600">PHOTO III / LEICA MONOCHROM</text>
+    <text x="60" y="1140" fill="#F5F2EC" font-size="28" letter-spacing="6" font-weight="700">CONCERT GRAND PIANO</text>
+    <text x="1140" y="1140" text-anchor="end" fill="#777777" font-size="12" letter-spacing="3">CAT. NV-409-LP</text>
+  </g>
+</svg>

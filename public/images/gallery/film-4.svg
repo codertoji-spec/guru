@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <rect width="100%" height="100%" fill="#080808" />
+  
+      <defs>
+        <linearGradient id="cinemaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#181716" />
+          <stop offset="50%" stop-color="#101010" />
+          <stop offset="100%" stop-color="#060606" />
+        </linearGradient>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#cinemaGrad)" />
+      <!-- Letterbox cinemascope bars -->
+      <rect x="0" y="0" width="1920" height="129.6" fill="#050505" />
+      <rect x="0" y="950.4" width="1920" height="129.6" fill="#050505" />
+      <line x1="0" y1="129.6" x2="1920" y2="129.6" stroke="#ffffff" stroke-opacity="0.08" />
+      <line x1="0" y1="950.4" x2="1920" y2="950.4" stroke="#ffffff" stroke-opacity="0.08" />
+      <!-- Cinematic lens focal ring -->
+      <circle cx="960" cy="540" r="160" stroke="#C5A880" stroke-opacity="0.3" stroke-width="1.5" fill="none" />
+      <circle cx="960" cy="540" r="220" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1" fill="none" stroke-dasharray="6 12" />
+      <circle cx="960" cy="540" r="6" fill="#C5A880" />
+    
+
+  <!-- Grain overlay simulation & luxury typography -->
+  <g font-family="'Helvetica Neue', 'Arial', sans-serif">
+    <!-- Top label -->
+    <text x="60" y="80" fill="#999999" font-size="13" letter-spacing="4" font-weight="500">NOVA ARCHIVAL SOUND</text>
+    <text x="1860" y="80" text-anchor="end" fill="#999999" font-size="13" letter-spacing="4">MMXXVI</text>
+
+    <!-- Bottom metadata -->
+    <text x="60" y="980" fill="#C5A880" font-size="12" letter-spacing="5" font-weight="600">FUNKHAUS STUDIOS</text>
+    <text x="60" y="1020" fill="#F5F2EC" font-size="28" letter-spacing="6" font-weight="700">CHRONICLES OF DAWN</text>
+    <text x="1860" y="1020" text-anchor="end" fill="#777777" font-size="12" letter-spacing="3">CAT. NV-409-LP</text>
+  </g>
+</svg>
